@@ -1,0 +1,17 @@
+{
+  "name": "react-native-tensorflow",
+  "displayName": "react-native-tensorflow",
+  "expo": {
+    "name": "react-native-tensorflow",
+    "slug": "expo-template-bare",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
