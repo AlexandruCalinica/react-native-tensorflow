@@ -2974,6 +2974,21 @@ expo-font@~8.1.0:
     fbjs "1.0.0"
     fontfaceobserver "^2.1.0"
 
+expo-gl-cpp@^8.2.0, expo-gl-cpp@~8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/expo-gl-cpp/-/expo-gl-cpp-8.2.0.tgz#c7855c9c38f3497ecbfea3e7ec82d74db16fbe1d"
+  integrity sha512-9aArZcDDaWEuq2R4Ls7DcEpa7CU14nntdOdQYsAs4zIVXchS2pv3lnkvlkLHJIobikzUeUzn8+Cz1FJzfcDn7w==
+
+expo-gl@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/expo-gl/-/expo-gl-8.2.0.tgz#0e6c87f87faa96ccc9beb321b3b7ff41ca14236e"
+  integrity sha512-WrXpPi9vRnasODwdKim5Y4ATtzEBs8ZwzhSrd1GC8o5etHjAHDIQ2NJNovksrajUGtcbdqNm4Xbr/4nDnxjK/Q==
+  dependencies:
+    expo-gl-cpp "~8.2.0"
+    fbjs "1.0.0"
+    invariant "2.2.4"
+    prop-types "^15.7.2"
+
 expo-image-loader@~1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/expo-image-loader/-/expo-image-loader-1.0.1.tgz#a83e336768df4dfcb8909aebb6d8152e256d7a72"
@@ -3723,7 +3738,7 @@ inquirer@^7.1.0:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
-invariant@^2.2.2, invariant@^2.2.4:
+invariant@2.2.4, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
