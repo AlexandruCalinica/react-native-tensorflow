@@ -37,14 +37,14 @@ export class FaceLandmarks {
   }
 
   forSize(width, height) {
-    return new (this.constructor as any)(
+    return new (this.constructor)(
       this.relativePositions,
       { width, height }
     )
   }
 
   shiftBy(x, y) {
-    return new (this.constructor as any)(
+    return new (this.constructor)(
       this.relativePositions,
       this._imgDims,
       new Point(x, y)
