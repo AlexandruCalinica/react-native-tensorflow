@@ -1,0 +1,10 @@
+export function isReactNative() {
+  return typeof global === 'object'
+    && typeof require === 'function'
+    && typeof module !== 'undefined'
+    // issues with gatsby.js: module.exports is undefined
+    // && !!module.exports
+    && typeof process !== 'undefined'
+    // process.version is undefined in react-native
+    // && !!process.version
+}
